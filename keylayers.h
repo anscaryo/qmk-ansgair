@@ -30,9 +30,10 @@ tap_dance_action_t tap_dance_actions[] = {
 };
 
 //  layer QWERTY
-#define ____________________QWERTY1L__________________ KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T
-#define ____________________QWERTY1R__________________ KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSPC
 
+/* #define ____________________QWERTY1L__________________ KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T
+#define ____________________QWERTY1R__________________ KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSPC
+ */
 #define ____________________QWUERTY1__________________ KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_DEL
 #define ____________________QWUERTY2__________________ TD(TD_CAPLOCK), KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT // CON QK_LOCK bloque mayuscula al pulsar, y shift al presionar
 #define ____________________QWUERTY3__________________ KC_LCTL, KC_Z, KC_X, TD(TD_COPY), TD(TD_PASTE), KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, RSFT_T(KC_ENT)
@@ -45,7 +46,7 @@ tap_dance_action_t tap_dance_actions[] = {
 #define ____________________LOWER4____________________ KC_LGUI, _______, KC_SPC, KC_ENT, MO(3), KC_RALT
 
 //  layer RASER
-#define ____________________RAISER1___________________ KC_TAB, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL
+#define ____________________RAISER1___________________ _______, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL
 #define ____________________RAISER2___________________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_VOLU, XXXXXXX, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, KC_GRV
 #define ____________________RAISER3___________________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_VOLD, KC_MUTE, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, LCTL(LALT(KC_DEL)) // Esta ultima manda ctrl+alt+del
 #define ____________________RAISER4___________________ KC_LGUI, MO(3), KC_SPC, KC_ENT, _______, KC_RALT
